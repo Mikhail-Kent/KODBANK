@@ -1,6 +1,103 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../fonts/helvetica_regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica';
+    background-color: #3182CE;
+    padding: 30px;
+}
+
 .accounts-container {
     width: 572px;
-    height: 436px;
-    color: #ffffff;
+    background-color: #ffffff;
     border-radius: 20px;
+}
+
+.accounts-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(45, 55, 72);
+    display: flex;
+    justify-content: space-between;
+}
+
+.accounts-title h4 {
+    margin-top: 28px;
+    margin-left: 22.5px;
+}
+
+.view-all {
+    border: 1px solid #3182CE;
+    border-radius: 8px;
+    background-color: #ffffff;
+    outline: none;
+    width: 110.5px;
+    height: 35px;
+    font-size: 8px;
+    font-weight: 400;
+    color: #3182CE;
+    margin-top: 28px;
+    margin-right: 19.5px;
+}
+
+.month-accounts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.month p {
+    color: #2D3748;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.month span {
+    color: #A0AEC0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cost {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.price {
+    color: #A0AEC0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.pdf {
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+}
+
+.pdf-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.pdf span {
+    color: #2D3748;
+    font-weight: 400;
+    font-size: 10px;
 }
