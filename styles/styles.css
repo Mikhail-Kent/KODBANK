@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background: #FFFFFF;
+    padding: 28px 21px;
+    width: 900px;
+    position: relative;
+}
+
+.info-sl {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(45, 55, 72);
+    font-family: Helvetica;
+}
+
+.info-company {
+    margin-top: 17.5px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f8f9fa;
+    position: relative;
+}
+
+.Oliver-Liam {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #718096;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.main-info {
+    font-size: 14px;
+    color: rgb(160, 174, 192);
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.delete-section {
+    position: absolute;
+    top: 40px;
+    right: 35px;
+}
+
+.delete-info {
+    color: #E53E3E;
+    border: none;
+    width: 75px;
+    height: 30px;
+    background-color: #f8f9fa;
+}
