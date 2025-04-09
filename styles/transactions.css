@@ -2,7 +2,6 @@
     border-radius: 20px;
     background-color: #ffffff;
     width: 660px;
-    height: 538px;
     margin-top: 24px;
     margin-left: 20px;
 }
@@ -31,8 +30,69 @@
     height: 15px;
 }
 
+.list-transactions {
+    display: flex;
+    flex-direction: column;
+}
+
 .your-transactions span {
     color: #A0AEC0;
     font-weight: 400;
     font-size: 14px;
+}
+
+.new-transactions span {
+    color: #A0AEC0;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 21px;
+}
+
+.icon-down {
+    margin: 20px;
+}
+
+.transaction p {
+    color: #2D3748;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.transaction span {
+    color: #A0AEC0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    flex-grow: 1;
+}
+
+.stocks-red  {
+    color:#E53E3E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.stocks-green  {
+    color:#48BB78;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    position: relative;
+}
+
+.expectation {
+    color: #2D3748;
+    size: 14px;
+    font-weight: 400;
 }
