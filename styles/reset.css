@@ -1,0 +1,42 @@
+* {
+    font-family: Helvetica;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background: #f0f0f0;
+}
+.main-content {
+    background: #ffffff;
+    padding: 20px;
+}
+
+/* 1 */
+.main-content {
+    display: flex;
+    background: #ffffff;
+}
+
+
+.top-panel {
+    display: flex;
+}
+
+.top-sect {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+
+/* если че удалить */
+
+
+.maintwo {
+    display: flex;
+}

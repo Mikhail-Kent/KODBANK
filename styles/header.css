@@ -1,0 +1,44 @@
+body {
+   
+    margin: 0;
+    background: #f0f2f5;
+}
+header {
+    background: #3182CE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 100%;
+}
+.lists, 
+.scores {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.scores {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.search-login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search-box input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.vhod {
+    color: white;
+    text-decoration: none;
+}

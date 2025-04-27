@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
-}
+} */
 
-body {
+.Billing-Information {
     background: #FFFFFF;
     padding: 28px 21px;
-    width: 900px;
-    position: relative;
-} */
+    width: 750px;
+}
+
 
 .info-sl {
     position: relative;
@@ -68,7 +68,6 @@ body {
 
 
 .Billing-Information { 
-    background-color: white;
     border-radius: 20px;
 }
 

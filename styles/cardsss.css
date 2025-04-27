@@ -1,20 +1,21 @@
 .cardsss {
     font-family: Helvetica;
-    background: #f5f7fa;
+    max-width: 850px;
     padding: 16px;
-    margin: 0 auto;
     
 }
 
 
 .zp-main {
     display: flex;
+
 }
+
+
 
 /* Блок карты */
 .card-block {
-    min-width: 460px;
-    max-height: 170px;
+    min-width: 300px;
     background: linear-gradient(#313860, #151928);
     border-radius: 20px;
     padding: 30px;
@@ -72,9 +73,10 @@
 /* Блоки зарплаты/счета */
 
 .account-block {
-    min-width: 240px;
-    min-height: 170px;
+    min-width: 190px;
+    /* min-height: 100px; */
     display: flex;
+    border-radius: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -115,11 +117,12 @@
 /* Способ оплаты */
 .payment-block {
     margin-top: 30px;
-    max-width: 1082px;
+    max-width: 850px;
     background: white;
     border-radius: 16px;
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);    
+    
 }
 
 .paiment-forflex {
