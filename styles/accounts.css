@@ -21,7 +21,7 @@ body {
 } */
 
 .accounts-container {
-    width: 450px;
+    min-width: 450px;
     background-color: #ffffff;
     border-radius: 20px;
     margin: 0;
@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 24px;
+    padding: 10px;
 }
 
 .month {

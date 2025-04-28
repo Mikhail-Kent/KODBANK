@@ -144,10 +144,12 @@
 }
 
 .card-number2 {
+    border: none;
+    outline: none;
+    padding: 40px;
     font-size: 16px;
     padding: 0px 0px 0px 15px;
     color: rgb(160, 174, 192);
-
 }
 
 .added {

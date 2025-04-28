@@ -26,8 +26,18 @@ header {
     align-items: center;
     gap: 20px;
 }
+
+.search-box {
+    position: relative;
+}
+
+.search-box svg {  
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .search-box input {
-    padding: 6px 10px;
+    padding: 6px 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }

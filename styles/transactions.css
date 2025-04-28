@@ -10,6 +10,7 @@
     align-items: end; 
     gap: 24px;
     flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);   
 }
 
 .transactions-container {
@@ -20,6 +21,7 @@
 
 .your-transactions {
     display: flex;
+    border-radius: 20px;
     justify-content: space-between;
 }
 
